@@ -1,0 +1,29 @@
+{
+  "name": "aws-lambda-email",
+  "version": "1.0.0",
+  "description": "an aws lambda function for sending email to ses",
+  "main": "index.js",
+  "dependencies": {
+    "nodemailer": "^2.5.0",
+    "nodemailer-ses-transport": "^1.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kuanyao/aws-lambda-email.git"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "ses"
+  ],
+  "author": "Kuan Yao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kuanyao/aws-lambda-email/issues"
+  },
+  "homepage": "https://github.com/kuanyao/aws-lambda-email#readme"
+}
